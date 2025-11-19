@@ -1,6 +1,7 @@
 package com.example.meu_primeiro_springboot.model;
 
 import jakarta.persistence.*;
+import org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchConnectionDetails;
 
 @Entity
 @Table(name = "users")
